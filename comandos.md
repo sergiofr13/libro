@@ -31,3 +31,26 @@ Crear un fichero indice.txt con el siguiente contenido:
     nano indice.txt
 
 (Agregamos el contenido)
+
+
+### Paso 3
+
+Realizar un commit con el mensaje “Añadido índice del libro”.
+
+    git status
+
+    git add comandos.md
+    git add indice.txt
+
+    git commit -m "Añadido indice del libro"
+
+
+
+### Paso 4
+
+Comprueba y explica el estado del repositorio.
+
+
+    git status
+
+Ahora al haber hecho el commit, no hay cambios nuevos.
