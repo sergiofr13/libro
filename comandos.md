@@ -54,3 +54,37 @@ Comprueba y explica el estado del repositorio.
     git status
 
 Ahora al haber hecho el commit, no hay cambios nuevos.
+
+
+### Paso 5
+
+Cambiar el índice.txt para que contenga lo siguiente:
+
+    nano indice.txt
+
+Hacemos los cambios
+
+
+### Paso 6
+
+Hacer un commit de los cambios con el mensaje “Añadido 4: La bella y la bestia”. Comprueba el estado del repositorio.
+
+
+    git status
+
+    git add comandos.md
+    git add indice.txt
+
+    git commit -m "Añadido 4: La bella y la bestia"
+
+    git status
+
+
+### Paso 7
+
+Muestra el historial del repositorio.
+
+    git log
+
+
+### Paso 8
