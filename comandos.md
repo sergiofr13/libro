@@ -88,3 +88,72 @@ Muestra el historial del repositorio.
 
 
 ### Paso 8
+
+
+Crea la carpeta capítulos y dentro de ella el fichero capitulo2.txt con el siguiente texto:
+
+
+    mkdir capitulos
+    cd capitulos
+    touch capitulo2.txt
+    nano capitulo2.txt
+
+(Dentro metemos o texto)
+
+
+### Paso 9
+
+Hacer un commit con el mensaje “Añadido capitulo 2”
+
+    git status
+
+    git add capitulos/
+    git add comandos.md
+
+    git commit -m "Añadido capitulo 2"
+
+
+### Paso 10
+
+Volver a mostrar el historial de cambios.
+
+    git log
+
+
+### Paso 11
+
+Crear el fichero capitulo3.txt en la carpeta capitulos con el siguiente texto:
+
+    cd capitulos
+    touch capitulo3.txt
+    nano capitulo3.txt
+
+(Metemos o texto)
+
+
+### Paso 12
+
+Ver el estado del repositorio de forma abreviada e indicar qué significa cada letra.
+
+    git status -s
+
+"M" Significa modificado (modificado en el índice o área de trabajo)
+"A" Significa agregado (se añadio al área de preapración)
+"??" Significa No rastreado (el archivo no está siendo siendo seguido por git)
+
+
+### Paso 13
+
+Modificar el índice.txt añadiendo “Capitulo 5: Forzen””
+
+    nano indice.txt
+
+(Añadimos el texto)
+
+
+### Paso 14
+
+Subir los cambios al repositorio ingorando el capitulo3.txt
+
+
+.gitignore
