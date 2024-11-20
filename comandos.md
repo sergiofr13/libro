@@ -155,5 +155,26 @@ Modificar el índice.txt añadiendo “Capitulo 5: Forzen””
 
 Subir los cambios al repositorio ingorando el capitulo3.txt
 
+Creamos archivo .gitignore na raiz
 
-.gitignore
+    touch .gitignore
+
+    nano .gitignore
+
+(Escribimos o archivo que queremos ignorar, neste caso capitulo3.txt)
+
+Para asegurarse de que capitulo3.txt non está sendo seguido por git
+
+    git rm --cached capitulo3.txt
+
+Confirmamos cambios
+
+    git add .gitignore
+
+Hacemos commit 
+
+    git commit -m "Ignorar capitulo3.txt"
+
+    git push origin main
+
+
